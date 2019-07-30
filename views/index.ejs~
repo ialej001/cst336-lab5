@@ -1,0 +1,22 @@
+<% include partials/header.ejs %>
+    <style>
+        body {
+            background-image: url("<%=imageURL%>");
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+        <h1>
+        Cool Images
+        </h1>
+        
+        <form action="/search">
+            <input type="text" placeholder="Type keyword" name="keyword"/><br><br>
+            <button>
+                Search
+            </button>
+        </form>
+    </main>
+
+<% include partials/footer.ejs %>

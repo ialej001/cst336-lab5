@@ -1,0 +1,16 @@
+<% include partials/header.ejs %>
+
+    <form action="/search">
+        <input type="text" placeholder="Type keyword" name="keyword"/><br><br>
+        <button>
+            Search
+        </button>
+    </form>
+        
+<% imageURLs.forEach(function(imageURL){ %>
+
+    <img src='<%=imageURL%>' width='200' height='200'>
+    
+ <% }) %>
+ 
+<% include partials/footer.ejs %>
