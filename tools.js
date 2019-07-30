@@ -63,10 +63,10 @@ module.exports = {
      * */
     createConnection: function(){
         var conn = mysql.createConnection({
-            host: "localhost",
-            user: "root",
-            password: "password",
-            database: "img_gallery"
+            host: "us-cdbr-iron-east-02.cleardb.net",
+            user: "b556860711a039",
+            password: "b97e025f",
+            database: "heroku_69e93fad5cd5235"
         });
         return conn;
     }
